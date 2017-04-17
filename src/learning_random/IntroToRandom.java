@@ -16,8 +16,10 @@ public class IntroToRandom {
 	public static void main(String[] args) {
 		//Create an object of the Random class here
 
-		int r = 0;
+		int r = new Random().nextInt(50)+25;
 		
 		System.out.println(r); 
+		r= new Random().nextInt(75-25)+25;
+		r= new Random().nextInt(6)+1;
 	}
 }
